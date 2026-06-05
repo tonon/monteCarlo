@@ -67,3 +67,100 @@ This is **not** a planning poker replacement – it’s a complementary tool for
 ```bash
 git clone https://github.com/your-username/monte-carlo-delivery-estimator.git
 cd monte-carlo-delivery-estimator
+
+## ⚙️ Configuration Details
+
+### Environment Variables (`.env`)
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `EXTRACTOR` | Data source: `csv` or `trello` | `csv` |
+| `CSV_PATH` | Path to CSV file (when using CSV extractor) | `data/sample_kanban_history.csv` |
+| `TRELLO_API_KEY` | Trello API key (if using Trello) | `your_api_key` |
+| `TRELLO_TOKEN` | Trello token | `your_token` |
+| `TRELLO_BOARD_ID` | Trello board ID | `abc123` |
+
+### Database Schema (SQLite)
+
+The tool creates two tables:
+
+**`cards`** – stores all kanban cards:
+```sql
+_id TEXT PRIMARY KEY,
+name TEXT,
+card_type TEXT,
+lane TEXT,
+coluna_kanban TEXT,
+sprint TEXT,
+createdAt TIMESTAMP,
+dtDone TIMESTAMP,
+estimated_days REAL,
+actual_days REAL,
+slippage REAL,
+aging_days REAL
+resultados_monte_carlo – stores simulation results:
+
+sql
+data_simulacao TEXT,
+contexto TEXT,
+categoria TEXT,
+itens_pendentes INTEGER,
+p50 INTEGER,
+p85 INTEGER,
+p95 INTEGER
+Simulation Parameters
+You can adjust the Monte Carlo engine by editing src/simulator.py:
+
+iterations – number of simulated futures (default 10,000)
+
+Confidence percentiles – P50, P85, P95 (hardcoded, but you can add others)
+
+Throughput calculation – based on historical daily deliveries
+
+Extending with New Connectors
+To add a new data source (e.g., Jira, Asana):
+
+Create a new class in src/extractors/ that inherits from BaseExtractor
+
+Implement fetch_board_data() returning a DataFrame with the required columns
+
+Update the .env to select your new extractor
+
+Example skeleton:
+
+python
+from .base import BaseExtractor
+
+class JiraExtractor(BaseExtractor):
+    def __init__(self, api_token, project_key):
+        self.api_token = api_token
+        self.project_key = project_key
+
+    def fetch_board_data(self):
+        # call Jira API, transform to DataFrame
+        return df
+📊 Dashboard Preview
+Below are screenshots of the Streamlit dashboard in action. (Add your own images here.)
+
+Monte Carlo Forecast Tab
+<img width="1830" height="862" alt="image" src="https://github.com/user-attachments/assets/7a8a8477-5dac-4eee-99ec-af40425090f4" />
+
+Example: P85 trend over time and comparison bar chart.
+
+Slippage Analysis Tab
+https://docs/images/slippage_analysis.png
+Example: Histogram and boxplot of estimation errors by card type.
+
+Aging Report Tab
+https://docs/images/aging_report.png
+Example: Distribution of open cards by age and list of oldest cards.
+
+Tip: Place your screenshots inside a docs/images/ folder in the repository and reference them accordingly.
+
+Live Demo
+You can also run the dashboard locally after following the installation steps:
+
+bash
+make dash
+Then open http://localhost:8501 in your browser.
+
