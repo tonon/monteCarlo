@@ -1,0 +1,10 @@
+data_simulacao,contexto,categoria,itens_pendentes,p50,p85,p95
+2026-06-04,Lane: Backlog,lane,16,19,25,29
+2026-06-04,Lane: Code Review,lane,11,13,18,21
+2026-06-04,Lane: Desenvolvimento,lane,7,8,12,15
+2026-06-04,Lane: Homologação,lane,16,19,25,29
+2026-06-04,Tipo: Bug,tipo,10,12,17,20
+2026-06-04,Tipo: Feature,tipo,10,12,17,20
+2026-06-04,Tipo: Ops,tipo,13,16,21,24
+2026-06-04,Tipo: Tech Debt,tipo,17,20,26,30
+2026-06-04,Backlog Geral,geral,50,60,69,75

@@ -1,0 +1,201 @@
+﻿_id,name,card_type,lane,coluna_kanban,sprint,createdAt,dtDone,estimated_days,actual_days,slippage,aging_days
+CARD-001,Bug task 1,Bug,Done,Done,Sprint 14,2026-05-13,2026-05-17,2,4,2,
+CARD-002,Feature task 2,Feature,Done,Done,Sprint 11,2026-02-01,2026-02-03,1,2,1,
+CARD-003,Bug task 3,Bug,Done,Done,Sprint 10,2026-05-23,2026-05-25,2,2,0,
+CARD-004,Bug task 4,Bug,Done,Done,Sprint 18,2025-12-08,2025-12-10,1,2,1,
+CARD-005,Bug task 5,Bug,Done,Done,Sprint 18,2026-05-04,2026-05-13,9,9,0,
+CARD-006,Feature task 6,Feature,Done,Done,Sprint 14,2026-03-18,2026-03-23,4,5,1,
+CARD-007,Feature task 7,Feature,Done,Done,Sprint 15,2025-12-02,2025-12-04,2,2,0,
+CARD-008,Feature task 8,Feature,Done,Done,Sprint 15,2026-02-10,2026-02-14,3,4,1,
+CARD-009,Bug task 9,Bug,Done,Done,Sprint 15,2025-12-27,2025-12-30,2,3,1,
+CARD-010,Tech Debt task 10,Tech Debt,Done,Done,Sprint 17,2026-02-27,2026-02-28,1,1,0,
+CARD-011,Bug task 11,Bug,Done,Done,Sprint 16,2026-04-17,2026-04-18,1,1,0,
+CARD-012,Tech Debt task 12,Tech Debt,Done,Done,Sprint 15,2025-12-21,2025-12-25,4,4,0,
+CARD-013,Feature task 13,Feature,Done,Done,Sprint 10,2026-04-27,2026-05-05,8,8,0,
+CARD-014,Feature task 14,Feature,Done,Done,Sprint 11,2026-05-19,2026-05-21,2,2,0,
+CARD-015,Bug task 15,Bug,Done,Done,Sprint 17,2026-01-29,2026-01-31,1,2,1,
+CARD-016,Tech Debt task 16,Tech Debt,Done,Done,Sprint 15,2026-05-12,2026-05-15,2,3,1,
+CARD-017,Tech Debt task 17,Tech Debt,Done,Done,Sprint 11,2026-01-23,2026-01-25,2,2,0,
+CARD-018,Feature task 18,Feature,Done,Done,Sprint 13,2026-05-05,2026-05-07,2,2,0,
+CARD-019,Ops task 19,Ops,Done,Done,Sprint 18,2026-01-11,2026-01-14,2,3,1,
+CARD-020,Tech Debt task 20,Tech Debt,Done,Done,Sprint 10,2026-01-26,2026-01-27,1,1,0,
+CARD-021,Bug task 21,Bug,Done,Done,Sprint 16,2026-01-28,2026-02-02,5,5,0,
+CARD-022,Bug task 22,Bug,Done,Done,Sprint 15,2026-02-07,2026-02-08,1,1,0,
+CARD-023,Ops task 23,Ops,Done,Done,Sprint 17,2026-01-24,2026-01-25,1,1,0,
+CARD-024,Tech Debt task 24,Tech Debt,Done,Done,Sprint 18,2026-01-06,2026-01-09,2,3,1,
+CARD-025,Tech Debt task 25,Tech Debt,Done,Done,Sprint 16,2026-04-17,2026-04-22,5,5,0,
+CARD-026,Ops task 26,Ops,Done,Done,Sprint 12,2026-04-29,2026-05-02,2,3,1,
+CARD-027,Ops task 27,Ops,Done,Done,Sprint 10,2026-04-10,2026-04-13,2,3,1,
+CARD-028,Feature task 28,Feature,Done,Done,Sprint 16,2025-12-29,2025-12-31,2,2,0,
+CARD-029,Bug task 29,Bug,Done,Done,Sprint 17,2026-05-02,2026-05-04,1,2,1,
+CARD-030,Tech Debt task 30,Tech Debt,Done,Done,Sprint 10,2026-04-15,2026-04-21,7,6,-1,
+CARD-031,Bug task 31,Bug,Done,Done,Sprint 18,2026-05-24,2026-05-28,4,4,0,
+CARD-032,Tech Debt task 32,Tech Debt,Done,Done,Sprint 16,2026-02-07,2026-02-09,1,2,1,
+CARD-033,Ops task 33,Ops,Done,Done,Sprint 14,2026-01-10,2026-01-11,1,1,0,
+CARD-034,Feature task 34,Feature,Done,Done,Sprint 11,2026-04-08,2026-04-13,5,5,0,
+CARD-035,Tech Debt task 35,Tech Debt,Done,Done,Sprint 18,2026-05-10,2026-05-16,7,6,-1,
+CARD-036,Feature task 36,Feature,Done,Done,Sprint 12,2026-05-05,2026-05-11,4,6,2,
+CARD-037,Bug task 37,Bug,Done,Done,Sprint 17,2026-04-18,2026-04-19,1,1,0,
+CARD-038,Bug task 38,Bug,Done,Done,Sprint 14,2025-12-05,2025-12-07,2,2,0,
+CARD-039,Bug task 39,Bug,Done,Done,Sprint 11,2026-01-31,2026-02-02,1,2,1,
+CARD-040,Ops task 40,Ops,Done,Done,Sprint 18,2025-12-22,2025-12-24,2,2,0,
+CARD-041,Feature task 41,Feature,Done,Done,Sprint 18,2026-01-02,2026-01-07,5,5,0,
+CARD-042,Tech Debt task 42,Tech Debt,Done,Done,Sprint 16,2026-01-12,2026-01-20,8,8,0,
+CARD-043,Feature task 43,Feature,Done,Done,Sprint 16,2026-01-24,2026-01-28,4,4,0,
+CARD-044,Tech Debt task 44,Tech Debt,Done,Done,Sprint 18,2026-05-21,2026-05-22,1,1,0,
+CARD-045,Bug task 45,Bug,Done,Done,Sprint 11,2026-03-26,2026-03-29,2,3,1,
+CARD-046,Bug task 46,Bug,Done,Done,Sprint 13,2026-02-25,2026-03-06,9,9,0,
+CARD-047,Feature task 47,Feature,Done,Done,Sprint 10,2026-04-30,2026-05-03,2,3,1,
+CARD-048,Bug task 48,Bug,Done,Done,Sprint 15,2026-01-28,2026-01-30,2,2,0,
+CARD-049,Feature task 49,Feature,Done,Done,Sprint 17,2025-12-19,2025-12-21,1,2,1,
+CARD-050,Feature task 50,Feature,Done,Done,Sprint 17,2026-01-24,2026-01-28,4,4,0,
+CARD-051,Ops task 51,Ops,Done,Done,Sprint 13,2026-02-01,2026-02-02,1,1,0,
+CARD-052,Bug task 52,Bug,Done,Done,Sprint 15,2025-12-25,2025-12-27,2,2,0,
+CARD-053,Ops task 53,Ops,Done,Done,Sprint 10,2026-03-19,2026-03-25,5,6,1,
+CARD-054,Bug task 54,Bug,Done,Done,Sprint 15,2026-05-22,2026-05-26,2,4,2,
+CARD-055,Feature task 55,Feature,Done,Done,Sprint 18,2025-12-28,2025-12-31,2,3,1,
+CARD-056,Feature task 56,Feature,Done,Done,Sprint 14,2026-03-25,2026-03-31,5,6,1,
+CARD-057,Feature task 57,Feature,Done,Done,Sprint 11,2026-03-29,2026-03-30,1,1,0,
+CARD-058,Bug task 58,Bug,Done,Done,Sprint 18,2026-03-24,2026-03-26,1,2,1,
+CARD-059,Bug task 59,Bug,Done,Done,Sprint 13,2025-12-04,2025-12-08,5,4,-1,
+CARD-060,Ops task 60,Ops,Done,Done,Sprint 13,2026-01-12,2026-01-16,3,4,1,
+CARD-061,Bug task 61,Bug,Done,Done,Sprint 10,2026-03-13,2026-03-14,1,1,0,
+CARD-062,Tech Debt task 62,Tech Debt,Done,Done,Sprint 17,2026-03-10,2026-03-12,2,2,0,
+CARD-063,Ops task 63,Ops,Done,Done,Sprint 18,2026-02-12,2026-02-14,2,2,0,
+CARD-064,Ops task 64,Ops,Done,Done,Sprint 14,2026-05-19,2026-05-23,3,4,1,
+CARD-065,Bug task 65,Bug,Done,Done,Sprint 18,2026-01-25,2026-01-29,4,4,0,
+CARD-066,Tech Debt task 66,Tech Debt,Done,Done,Sprint 17,2025-12-16,2025-12-19,2,3,1,
+CARD-067,Feature task 67,Feature,Done,Done,Sprint 18,2026-04-08,2026-04-09,1,1,0,
+CARD-068,Feature task 68,Feature,Done,Done,Sprint 11,2025-12-21,2025-12-24,2,3,1,
+CARD-069,Feature task 69,Feature,Done,Done,Sprint 13,2026-05-22,2026-05-25,2,3,1,
+CARD-070,Bug task 70,Bug,Done,Done,Sprint 16,2026-04-28,2026-05-12,15,14,-1,
+CARD-071,Tech Debt task 71,Tech Debt,Done,Done,Sprint 13,2026-05-18,2026-05-20,2,2,0,
+CARD-072,Tech Debt task 72,Tech Debt,Done,Done,Sprint 16,2026-05-21,2026-05-25,3,4,1,
+CARD-073,Tech Debt task 73,Tech Debt,Done,Done,Sprint 11,2026-01-03,2026-01-10,6,7,1,
+CARD-074,Ops task 74,Ops,Done,Done,Sprint 11,2025-12-03,2025-12-08,5,5,0,
+CARD-075,Feature task 75,Feature,Done,Done,Sprint 12,2025-12-19,2025-12-27,8,8,0,
+CARD-076,Bug task 76,Bug,Done,Done,Sprint 15,2026-02-28,2026-03-01,1,1,0,
+CARD-077,Feature task 77,Feature,Done,Done,Sprint 18,2026-02-11,2026-02-12,1,1,0,
+CARD-078,Tech Debt task 78,Tech Debt,Done,Done,Sprint 18,2026-05-30,2026-05-31,2,2,0,
+CARD-079,Tech Debt task 79,Tech Debt,Done,Done,Sprint 11,2025-12-03,2025-12-04,1,1,0,
+CARD-080,Tech Debt task 80,Tech Debt,Done,Done,Sprint 11,2026-01-04,2026-01-07,2,3,1,
+CARD-081,Feature task 81,Feature,Done,Done,Sprint 13,2026-04-21,2026-04-22,1,1,0,
+CARD-082,Feature task 82,Feature,Done,Done,Sprint 14,2026-02-26,2026-03-07,10,9,-1,
+CARD-083,Ops task 83,Ops,Done,Done,Sprint 10,2026-04-09,2026-04-10,1,1,0,
+CARD-084,Ops task 84,Ops,Done,Done,Sprint 10,2025-12-24,2025-12-26,2,2,0,
+CARD-085,Tech Debt task 85,Tech Debt,Done,Done,Sprint 14,2025-12-01,2025-12-06,5,5,0,
+CARD-086,Ops task 86,Ops,Done,Done,Sprint 16,2026-01-11,2026-01-12,1,1,0,
+CARD-087,Bug task 87,Bug,Done,Done,Sprint 12,2026-04-23,2026-04-24,1,1,0,
+CARD-088,Bug task 88,Bug,Done,Done,Sprint 18,2026-04-19,2026-04-22,3,3,0,
+CARD-089,Ops task 89,Ops,Done,Done,Sprint 14,2026-01-07,2026-01-11,3,4,1,
+CARD-090,Bug task 90,Bug,Done,Done,Sprint 13,2026-03-04,2026-03-09,6,5,-1,
+CARD-091,Feature task 91,Feature,Done,Done,Sprint 15,2026-05-24,2026-05-28,4,4,0,
+CARD-092,Ops task 92,Ops,Done,Done,Sprint 12,2026-04-23,2026-04-27,5,4,-1,
+CARD-093,Feature task 93,Feature,Done,Done,Sprint 12,2026-01-30,2026-01-31,1,1,0,
+CARD-094,Bug task 94,Bug,Done,Done,Sprint 15,2026-03-16,2026-03-19,2,3,1,
+CARD-095,Feature task 95,Feature,Done,Done,Sprint 11,2026-03-16,2026-03-20,3,4,1,
+CARD-096,Bug task 96,Bug,Done,Done,Sprint 13,2026-03-08,2026-03-09,1,1,0,
+CARD-097,Ops task 97,Ops,Done,Done,Sprint 13,2026-01-21,2026-01-31,9,10,1,
+CARD-098,Bug task 98,Bug,Done,Done,Sprint 16,2026-01-27,2026-01-31,4,4,0,
+CARD-099,Tech Debt task 99,Tech Debt,Done,Done,Sprint 14,2026-02-23,2026-02-24,1,1,0,
+CARD-100,Ops task 100,Ops,Done,Done,Sprint 18,2026-02-28,2026-03-05,5,5,0,
+CARD-101,Bug task 101,Bug,Done,Done,Sprint 14,2026-02-23,2026-03-01,4,6,2,
+CARD-102,Tech Debt task 102,Tech Debt,Done,Done,Sprint 16,2026-01-15,2026-01-19,2,4,2,
+CARD-103,Tech Debt task 103,Tech Debt,Done,Done,Sprint 18,2026-02-27,2026-03-01,1,2,1,
+CARD-104,Ops task 104,Ops,Done,Done,Sprint 13,2025-12-30,2025-12-31,1,1,0,
+CARD-105,Bug task 105,Bug,Done,Done,Sprint 10,2026-02-04,2026-02-07,3,3,0,
+CARD-106,Feature task 106,Feature,Done,Done,Sprint 11,2026-04-13,2026-04-17,3,4,1,
+CARD-107,Tech Debt task 107,Tech Debt,Done,Done,Sprint 11,2026-05-20,2026-05-23,3,3,0,
+CARD-108,Tech Debt task 108,Tech Debt,Done,Done,Sprint 15,2026-02-15,2026-02-23,8,8,0,
+CARD-109,Tech Debt task 109,Tech Debt,Done,Done,Sprint 13,2026-03-14,2026-03-19,5,5,0,
+CARD-110,Ops task 110,Ops,Done,Done,Sprint 12,2026-03-18,2026-03-19,1,1,0,
+CARD-111,Tech Debt task 111,Tech Debt,Done,Done,Sprint 10,2026-05-07,2026-05-08,1,1,0,
+CARD-112,Tech Debt task 112,Tech Debt,Done,Done,Sprint 15,2026-02-16,2026-02-20,3,4,1,
+CARD-113,Ops task 113,Ops,Done,Done,Sprint 13,2026-03-30,2026-04-01,1,2,1,
+CARD-114,Ops task 114,Ops,Done,Done,Sprint 12,2026-04-10,2026-04-15,5,5,0,
+CARD-115,Bug task 115,Bug,Done,Done,Sprint 15,2026-05-18,2026-05-22,3,4,1,
+CARD-116,Feature task 116,Feature,Done,Done,Sprint 13,2025-12-24,2025-12-27,3,3,0,
+CARD-117,Feature task 117,Feature,Done,Done,Sprint 13,2026-01-20,2026-01-21,1,1,0,
+CARD-118,Bug task 118,Bug,Done,Done,Sprint 13,2026-04-01,2026-04-02,1,1,0,
+CARD-119,Ops task 119,Ops,Done,Done,Sprint 13,2026-05-28,2026-05-31,2,3,1,
+CARD-120,Bug task 120,Bug,Done,Done,Sprint 11,2026-01-07,2026-01-08,1,1,0,
+CARD-121,Feature task 121,Feature,Done,Done,Sprint 18,2026-03-19,2026-03-20,1,1,0,
+CARD-122,Bug task 122,Bug,Done,Done,Sprint 11,2026-03-29,2026-04-01,3,3,0,
+CARD-123,Feature task 123,Feature,Done,Done,Sprint 18,2026-03-27,2026-03-30,3,3,0,
+CARD-124,Tech Debt task 124,Tech Debt,Done,Done,Sprint 17,2026-04-23,2026-04-24,1,1,0,
+CARD-125,Ops task 125,Ops,Done,Done,Sprint 18,2026-05-06,2026-05-12,7,6,-1,
+CARD-126,Feature task 126,Feature,Done,Done,Sprint 17,2026-03-25,2026-03-31,6,6,0,
+CARD-127,Tech Debt task 127,Tech Debt,Done,Done,Sprint 14,2026-03-26,2026-03-30,4,4,0,
+CARD-128,Ops task 128,Ops,Done,Done,Sprint 14,2026-04-13,2026-04-17,4,4,0,
+CARD-129,Bug task 129,Bug,Done,Done,Sprint 13,2026-03-23,2026-03-27,4,4,0,
+CARD-130,Tech Debt task 130,Tech Debt,Done,Done,Sprint 18,2026-02-08,2026-02-14,5,6,1,
+CARD-131,Feature task 131,Feature,Done,Done,Sprint 16,2025-12-21,2025-12-26,3,5,2,
+CARD-132,Feature task 132,Feature,Done,Done,Sprint 11,2026-05-27,2026-05-28,1,1,0,
+CARD-133,Ops task 133,Ops,Done,Done,Sprint 17,2026-03-17,2026-03-19,1,2,1,
+CARD-134,Bug task 134,Bug,Done,Done,Sprint 16,2026-03-17,2026-03-30,10,13,3,
+CARD-135,Bug task 135,Bug,Done,Done,Sprint 16,2026-03-10,2026-03-11,1,1,0,
+CARD-136,Bug task 136,Bug,Done,Done,Sprint 14,2026-04-02,2026-04-04,2,2,0,
+CARD-137,Ops task 137,Ops,Done,Done,Sprint 18,2026-03-10,2026-03-17,7,7,0,
+CARD-138,Feature task 138,Feature,Done,Done,Sprint 14,2026-05-04,2026-05-05,1,1,0,
+CARD-139,Ops task 139,Ops,Done,Done,Sprint 15,2026-03-22,2026-03-27,3,5,2,
+CARD-140,Ops task 140,Ops,Done,Done,Sprint 17,2026-05-21,2026-05-24,3,3,0,
+CARD-141,Bug task 141,Bug,Done,Done,Sprint 10,2026-01-02,2026-01-03,1,1,0,
+CARD-142,Ops task 142,Ops,Done,Done,Sprint 17,2025-12-22,2025-12-23,1,1,0,
+CARD-143,Bug task 143,Bug,Done,Done,Sprint 15,2026-01-16,2026-01-19,2,3,1,
+CARD-144,Ops task 144,Ops,Done,Done,Sprint 16,2026-01-24,2026-01-25,1,1,0,
+CARD-145,Ops task 145,Ops,Done,Done,Sprint 11,2026-02-10,2026-02-13,2,3,1,
+CARD-146,Bug task 146,Bug,Done,Done,Sprint 10,2026-03-31,2026-04-04,4,4,0,
+CARD-147,Feature task 147,Feature,Done,Done,Sprint 10,2026-02-28,2026-03-06,6,6,0,
+CARD-148,Feature task 148,Feature,Done,Done,Sprint 10,2025-12-08,2025-12-10,1,2,1,
+CARD-149,Feature task 149,Feature,Done,Done,Sprint 17,2026-05-09,2026-05-10,1,1,0,
+CARD-150,Bug task 150,Bug,Done,Done,Sprint 13,2026-05-21,2026-05-22,1,1,0,
+CARD-151,Tech Debt task 151,Tech Debt,Homologação,Homologação,Sprint 11,2026-03-30,,4,,,65
+CARD-152,Tech Debt task 152,Tech Debt,Desenvolvimento,Desenvolvimento,Sprint 10,2026-01-11,,11,,,143
+CARD-153,Ops task 153,Ops,Backlog,Backlog,Sprint 13,2026-02-18,,13,,,105
+CARD-154,Feature task 154,Feature,Desenvolvimento,Desenvolvimento,Sprint 14,2025-12-20,,13,,,165
+CARD-155,Bug task 155,Bug,Desenvolvimento,Desenvolvimento,Sprint 18,2026-05-25,,7,,,9
+CARD-156,Tech Debt task 156,Tech Debt,Desenvolvimento,Desenvolvimento,Sprint 15,2026-03-20,,10,,,75
+CARD-157,Ops task 157,Ops,Backlog,Backlog,Sprint 16,2025-12-04,,3,,,181
+CARD-158,Ops task 158,Ops,Code Review,Code Review,Sprint 12,2026-03-03,,8,,,92
+CARD-159,Tech Debt task 159,Tech Debt,Backlog,Backlog,Sprint 16,2026-04-13,,9,,,51
+CARD-160,Tech Debt task 160,Tech Debt,Homologação,Homologação,Sprint 13,2026-05-01,,15,,,33
+CARD-161,Tech Debt task 161,Tech Debt,Backlog,Backlog,Sprint 17,2025-12-23,,5,,,162
+CARD-162,Ops task 162,Ops,Homologação,Homologação,Sprint 17,2026-04-25,,2,,,39
+CARD-163,Feature task 163,Feature,Backlog,Backlog,Sprint 15,2026-02-22,,5,,,101
+CARD-164,Tech Debt task 164,Tech Debt,Homologação,Homologação,Sprint 14,2026-02-05,,11,,,118
+CARD-165,Bug task 165,Bug,Code Review,Code Review,Sprint 13,2026-04-22,,3,,,42
+CARD-166,Ops task 166,Ops,Backlog,Backlog,Sprint 13,2026-06-03,,10,,,1
+CARD-167,Ops task 167,Ops,Backlog,Backlog,Sprint 10,2026-05-26,,9,,,8
+CARD-168,Tech Debt task 168,Tech Debt,Code Review,Code Review,Sprint 13,2025-12-24,,8,,,161
+CARD-169,Tech Debt task 169,Tech Debt,Backlog,Backlog,Sprint 18,2026-02-17,,10,,,106
+CARD-170,Ops task 170,Ops,Homologação,Homologação,Sprint 17,2026-02-27,,7,,,96
+CARD-171,Tech Debt task 171,Tech Debt,Homologação,Homologação,Sprint 11,2026-02-08,,5,,,115
+CARD-172,Feature task 172,Feature,Homologação,Homologação,Sprint 18,2026-06-03,,3,,,1
+CARD-173,Feature task 173,Feature,Code Review,Code Review,Sprint 17,2026-05-26,,5,,,8
+CARD-174,Tech Debt task 174,Tech Debt,Desenvolvimento,Desenvolvimento,Sprint 13,2026-02-09,,15,,,114
+CARD-175,Feature task 175,Feature,Homologação,Homologação,Sprint 14,2026-02-14,,4,,,109
+CARD-176,Feature task 176,Feature,Homologação,Homologação,Sprint 10,2025-12-04,,2,,,181
+CARD-177,Tech Debt task 177,Tech Debt,Code Review,Code Review,Sprint 17,2026-04-21,,12,,,43
+CARD-178,Bug task 178,Bug,Homologação,Homologação,Sprint 17,2025-12-27,,9,,,158
+CARD-179,Tech Debt task 179,Tech Debt,Code Review,Code Review,Sprint 14,2026-03-23,,2,,,72
+CARD-180,Bug task 180,Bug,Desenvolvimento,Desenvolvimento,Sprint 17,2026-04-02,,8,,,62
+CARD-181,Bug task 181,Bug,Code Review,Code Review,Sprint 14,2025-12-19,,4,,,166
+CARD-182,Feature task 182,Feature,Desenvolvimento,Desenvolvimento,Sprint 16,2025-12-22,,10,,,163
+CARD-183,Feature task 183,Feature,Backlog,Backlog,Sprint 17,2026-05-05,,9,,,29
+CARD-184,Ops task 184,Ops,Homologação,Homologação,Sprint 10,2026-02-15,,11,,,108
+CARD-185,Bug task 185,Bug,Code Review,Code Review,Sprint 13,2026-05-06,,12,,,28
+CARD-186,Bug task 186,Bug,Code Review,Code Review,Sprint 12,2026-02-06,,5,,,117
+CARD-187,Bug task 187,Bug,Code Review,Code Review,Sprint 16,2026-04-21,,2,,,43
+CARD-188,Ops task 188,Ops,Homologação,Homologação,Sprint 13,2026-03-26,,2,,,69
+CARD-189,Tech Debt task 189,Tech Debt,Backlog,Backlog,Sprint 13,2026-02-12,,3,,,111
+CARD-190,Feature task 190,Feature,Backlog,Backlog,Sprint 18,2026-02-06,,3,,,117
+CARD-191,Feature task 191,Feature,Homologação,Homologação,Sprint 12,2026-01-27,,15,,,127
+CARD-192,Bug task 192,Bug,Code Review,Code Review,Sprint 14,2025-12-19,,14,,,166
+CARD-193,Tech Debt task 193,Tech Debt,Backlog,Backlog,Sprint 17,2026-05-02,,3,,,32
+CARD-194,Tech Debt task 194,Tech Debt,Backlog,Backlog,Sprint 18,2026-05-26,,6,,,8
+CARD-195,Ops task 195,Ops,Backlog,Backlog,Sprint 10,2026-04-18,,3,,,46
+CARD-196,Tech Debt task 196,Tech Debt,Homologação,Homologação,Sprint 11,2026-03-21,,2,,,74
+CARD-197,Bug task 197,Bug,Homologação,Homologação,Sprint 10,2026-01-28,,11,,,126
+CARD-198,Ops task 198,Ops,Backlog,Backlog,Sprint 12,2026-01-14,,6,,,140
+CARD-199,Ops task 199,Ops,Backlog,Backlog,Sprint 17,2026-04-29,,3,,,35
+CARD-200,Ops task 200,Ops,Homologação,Homologação,Sprint 11,2026-02-28,,7,,,95
